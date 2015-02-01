@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trmt:catalog xmlns:trmt="http://www.example.org/schemas/clinic/treatment" 
+xmlns:tns1="http://www.example.org/schemas/clinic/clinic_ids" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.example.org/schemas/clinic/treatment Treatment.xsd">
+	<treatment>
+		<provider-id>123</provider-id>
+		<diagnosis>fever</diagnosis>
+		<drug-treatment>
+			<dosage>3.6</dosage>
+			<drug>aspirin</drug>
+			<prescribingphysician>Robert</prescribingphysician>
+		</drug-treatment>
+	</treatment>
+	<treatment>
+		<provider-id>234</provider-id>
+		<diagnosis>tumour</diagnosis>
+		<radiology>
+			<date>2014-01-03</date>
+			<radiologist>David</radiologist>
+		</radiology>
+	</treatment>
+	<treatment>
+		<provider-id>345</provider-id>
+		<diagnosis>fracture</diagnosis>
+		<surgery>
+			<date>2013-12-23</date>
+			<surgeon>Smith</surgeon>
+		</surgery>
+	</treatment>
+</trmt:catalog>

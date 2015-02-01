@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pat:Patient xmlns:pat="http://www.example.org/schemas/clinic/patient" 
+xmlns:tns1="http://www.example.org/schemas/clinic/clinic_ids" 
+xmlns:trmt="http://www.example.org/schemas/clinic/treatment" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.example.org/schemas/clinic/patient Patient.xsd ">
+  <pat:patient-id>678</pat:patient-id>
+  <pat:name>Larary</pat:name>
+  <pat:dob>2004-08-10</pat:dob>
+  <pat:treatments>
+  	<pat:treatment>
+  		<trmt:provider-id>6575</trmt:provider-id>
+  		<trmt:diagnosis>fracture</trmt:diagnosis>
+  	</pat:treatment>
+  	<pat:treatment>
+  		<trmt:provider-id>123</trmt:provider-id>
+  		<trmt:diagnosis>enteritis</trmt:diagnosis>
+  	</pat:treatment>
+  </pat:treatments>
+</pat:Patient>

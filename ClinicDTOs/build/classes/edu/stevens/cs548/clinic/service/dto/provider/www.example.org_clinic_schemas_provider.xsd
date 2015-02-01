@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:ns1="http://cs548.stevens.edu/clinic/schemas/provider" xmlns:ns0="http://www.example.org/clinic/schemas/provider" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/clinic/schemas/provider">
+   <xsd:import schemaLocation="cs548.stevens.edu_clinic_schemas_provider.xsd" namespace="http://cs548.stevens.edu/clinic/schemas/provider"/>
+   <xsd:element name="provider-dto" type="ns1:providerDTO"/>
+</xsd:schema>

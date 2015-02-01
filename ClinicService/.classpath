@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="ejbModule"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="F:/研一/548/week4/glassfish4/glassfish/modules/bean-validator.jar"/>
+	<classpathentry kind="lib" path="F:/研一/548/week4/glassfish3/glassfish/modules/jersey-core.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://docs.oracle.com/javaee/6/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="/ClinicTest"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/EclipseLink 2.5.0 - Kepler">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+			<attribute name="owner.project.facets" value="jpt.jaxb"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/研一/548/week4/glassfish4/glassfish/lib/javaee.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

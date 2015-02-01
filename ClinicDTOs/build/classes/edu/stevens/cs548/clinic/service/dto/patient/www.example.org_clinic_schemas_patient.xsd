@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:ns1="http://cs548.stevens.edu/clinic/schemas/patient" 
+			xmlns:ns0="http://www.example.org/clinic/schemas/patient" 
+			xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+			targetNamespace="http://www.example.org/clinic/schemas/patient">
+   <xsd:import schemaLocation="cs548.stevens.edu_clinic_schemas_patient.xsd" namespace="http://cs548.stevens.edu/clinic/schemas/patient"/>
+</xsd:schema>

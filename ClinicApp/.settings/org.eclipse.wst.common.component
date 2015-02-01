@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ClinicApp">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="ClinicDomain.jar" deploy-path="/lib" handle="module:/resource/ClinicDomain/ClinicDomain">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ClinicTest.jar" deploy-path="/" handle="module:/resource/ClinicTest/ClinicTest">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ClinicDTOs.jar" deploy-path="/lib" handle="module:/resource/ClinicDTOs/ClinicDTOs">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ClinicService.jar" deploy-path="/" handle="module:/resource/ClinicService/ClinicService">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ClinicWebService.war" deploy-path="/" handle="module:/resource/ClinicWebService/ClinicWebService">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="TestService.jar" deploy-path="/" handle="module:/resource/TestService/TestService">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

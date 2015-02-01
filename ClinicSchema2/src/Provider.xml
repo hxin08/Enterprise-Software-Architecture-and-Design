@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Provider xmlns:tns="http://www.example.org/schemas/clinic/provider" 
+xmlns:tns1="http://www.example.org/schemas/clinic/clinic_ids" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.example.org/schemas/clinic/provider Provider.xsd ">
+  <tns:provider-id>566</tns:provider-id>
+  <tns:name>Hongsen</tns:name>
+  <tns:specialization>Radiology</tns:specialization>
+</tns:Provider>

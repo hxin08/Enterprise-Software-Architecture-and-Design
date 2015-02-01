@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinic:Clinic xmlns:clinic="http://www.example.org/schemas/clinic" 
+xmlns:pat="http://www.example.org/schemas/clinic/patient" 
+xmlns:tns2="http://www.example.org/schemas/clinic/clinic_ids" 
+xmlns:trmt="http://www.example.org/schemas/clinic/treatment" 
+xmlns:prov="http://www.example.org/schemas/clinic/provider" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.example.org/schemas/clinic Clinic.xsd ">
+	<pat:Patient>
+		<pat:patient-id>123</pat:patient-id>
+		<pat:name>Harry</pat:name>
+		<pat:dob>2013-08-24</pat:dob>
+		<pat:treatments>
+	  	<pat:treatment>
+	  		<trmt:provider-id>123</trmt:provider-id>
+	  		<trmt:diagnosis>trmt:diagnosis</trmt:diagnosis>
+	  		<trmt:drug-treatment>
+	  			<trmt:dosage>4.5</trmt:dosage>
+	  			<trmt:drug>trmt:drug</trmt:drug>
+	  			<trmt:prescribingphysician>
+	  			David
+	  			</trmt:prescribingphysician>
+	  		</trmt:drug-treatment>
+	  	</pat:treatment>
+  		</pat:treatments>
+	</pat:Patient>
+	<prov:Provider>
+		<prov:provider-id>234</prov:provider-id>
+		<prov:name>Kim</prov:name>
+		<prov:specialization>Radiology</prov:specialization>
+	</prov:Provider>
+</clinic:Clinic>

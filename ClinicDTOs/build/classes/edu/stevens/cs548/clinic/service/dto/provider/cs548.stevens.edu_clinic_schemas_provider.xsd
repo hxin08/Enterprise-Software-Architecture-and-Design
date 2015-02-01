@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:ns0="http://cs548.stevens.edu/clinic/schemas/provider" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://cs548.stevens.edu/clinic/schemas/provider" elementFormDefault="qualified">
+   <xsd:complexType name="providerDTO">
+      <xsd:sequence>
+         <xsd:element name="id" type="xsd:long"/>
+         <xsd:element name="provider-id" type="xsd:long"/>
+         <xsd:element name="name" type="xsd:string"/>
+         <xsd:element name="specialization" type="ns0:SpecializationType"/>
+      </xsd:sequence>
+   </xsd:complexType>
+   <xsd:simpleType name="SpecializationType">
+      <xsd:restriction base="xsd:string">
+         <xsd:enumeration value="Radiology"/>
+         <xsd:enumeration value="Surgery"/>
+         <xsd:enumeration value="Oncology"/>
+      </xsd:restriction>
+   </xsd:simpleType>
+</xsd:schema>

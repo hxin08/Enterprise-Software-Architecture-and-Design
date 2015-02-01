@@ -1,0 +1,39 @@
+<root>
+  <facet id="jpt.jaxb">
+    <node name="classgen">
+      <attribute name="package" value="edu.stevens.cs548.clinic.service.dto.treatment"/>
+    </node>
+    <node name="libprov">
+      <attribute name="provider-id" value="jaxb-user-library-provider"/>
+    </node>
+    <node name="platform">
+      <attribute name="platform-id" value="eclipselink_2_1"/>
+    </node>
+    <node name="schemas">
+      <node name="schema-1">
+        <attribute name="location" value="platform:/resource/ClinicDTOs/src/edu/setevens/cs548/clinic/service/dto/treatment/TreatmentDto.xsd"/>
+      </node>
+      <node name="schema-2">
+        <attribute name="location" value="platform:/resource/ClinicDTOs/src/edu/stevens/cs548/clinic/service/dto/patient/PatientDto.xsd"/>
+      </node>
+      <node name="schema-3">
+        <attribute name="location" value="platform:/resource/ClinicDTOs/src/edu/stevens/cs548/clinic/service/dto/provider/ProviderDto.xsd"/>
+      </node>
+      <node name="schema-4">
+        <attribute name="location" value="platform:/resource/ClinicDTOs/src/edu/stevens/cs548/clinic/service/dto/treatment/TreatmentDto.xsd"/>
+      </node>
+      <node name="schema-5">
+        <attribute name="location" value="platform:/resource/ClinicDTOs/src/edu/stevens/cs548/clinic/service/dto/treatment/ProviderDto.xsd"/>
+      </node>
+      <node name="schema-6">
+        <attribute name="location" value="platform:/resource/ClinicDTOs/src/edu/stevens/cs548/clinic/service/dto/patient/TreatmentDto.xsd"/>
+      </node>
+      <node name="schema-7">
+        <attribute name="location" value="platform:/resource/ClinicDTOs/src/edu/stevens/cs548/clinic/service/dto/provider/TreatmentDto.xsd"/>
+      </node>
+      <node name="schema-8">
+        <attribute name="location" value="platform:/resource/ClinicDTOs/src/edu/stevens/cs548/clinic/service/dto/TreatmentDto.xsd"/>
+      </node>
+    </node>
+  </facet>
+</root>

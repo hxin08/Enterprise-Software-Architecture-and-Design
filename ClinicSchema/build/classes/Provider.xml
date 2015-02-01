@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prov:Provider xmlns:prov="http://www.example.org/schemas/clinic/provider" 
+xmlns:tns1="http://www.example.org/schemas/clinic/clinic_ids" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.example.org/schemas/clinic/provider Provider.xsd ">
+	  <prov:provider-id>3456</prov:provider-id>
+	  <prov:name>Tom</prov:name>
+	  <prov:specialization>Surgery</prov:specialization>
+</prov:Provider>
+

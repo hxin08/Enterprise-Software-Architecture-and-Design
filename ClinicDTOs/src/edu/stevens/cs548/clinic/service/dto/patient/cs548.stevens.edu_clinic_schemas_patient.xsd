@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:ns0="http://cs548.stevens.edu/clinic/schemas/patient" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://cs548.stevens.edu/clinic/schemas/patient" elementFormDefault="qualified">
+   <xsd:complexType name="DrugTreatmentType">
+      <xsd:sequence>
+         <xsd:element name="dosage" type="xsd:float"/>
+         <xsd:element name="drug" type="xsd:string"/>
+         <xsd:element name="prescribingphysician" type="xsd:string"/>
+      </xsd:sequence>
+   </xsd:complexType>
+</xsd:schema>
